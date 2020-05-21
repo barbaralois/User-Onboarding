@@ -36,7 +36,7 @@ export default function Form(props) {
         Password:&nbsp;
         <input
           name="password"
-          type="text"
+          type="password"
           onChange={onInputChange}
           value={values.password}
         />
@@ -56,7 +56,7 @@ export default function Form(props) {
         <div>{errors.name}</div>
         <div>{errors.email}</div>
         <div>{errors.password}</div>
-        <div>{errors.civil}</div>
+        <div>{errors.tos}</div>
       </div>
     </form>
   );
