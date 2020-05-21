@@ -1,0 +1,29 @@
+{
+  "name": "User-Onboarding",
+  "version": "1.0.0",
+  "description": "We've seen many different styles of form management by now -- simple to complex. Today we are going to unleash your inner form-wizard! 🧙",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbaralois/User-Onboarding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barbaralois/User-Onboarding/issues"
+  },
+  "homepage": "https://github.com/barbaralois/User-Onboarding#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "yup": "^0.29.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
